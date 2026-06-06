@@ -52,9 +52,8 @@ STEP 7
 a="---------------------------------------------------"
 print(a.center(50))
 x="STUDENT REPORT"
-b="---------------------------------------------------"
 print(x.center(50))
-print(b.center(50))
+print(a.center(50))
 
 print("Name".center(10), ":".center(20) ,name)
 print("Course".center(10),":".center(20), course)
@@ -69,4 +68,5 @@ print("Passed".center(10),":".center(20), percentage>=50)
 print("Scholarship".center(10),":".center(20), percentage>=80 and age<=25)
 
 print("\nSubject Found".center(10),":".center(20), sub_name in sub)
+print(a.center(50))
 ~~~
