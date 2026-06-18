@@ -38,7 +38,14 @@ no2=eval(input("Enter second number:"))
 no3=eval(input("Enter third number:"))
 
 num_list=[no1,no2,no3]
-print("\nLargest number is:", max(num_list))
+
+
+if no1>no2 and no1>no3:
+  print("\nFirst number is largest.")
+elif no3>no1 and no3>2:
+    print("\nThird number is largest.")
+else:
+    print("\nSecond number is largest.")
 ~~~
 
 ## Task 4
